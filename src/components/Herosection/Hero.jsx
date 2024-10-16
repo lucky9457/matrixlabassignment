@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import backgroundvideo from "../assets/-c85c-4755-a1c0-4646ee276bd512s.mp4"
+import backgroundvideo from "../assets/comp.mp4"
 import "./Hero.css"
 
 const HeroSection = () => {
