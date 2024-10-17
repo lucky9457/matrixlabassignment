@@ -7,9 +7,9 @@ import riskguardbac from "../assets/riskguardbac.png"
 const Dashboard = () => {
     return (
         <div className="bgdashboard min-h-screen p-16 text-white relative overflow-hidden bgcontainer">
-            {/* Video Container */}
+            
             <div className=' videcontainer absolute inset-0 z-0'>
-                {/* Left Circuit Video (Flipped) */}
+            
                 <video
                     src={circuitvideo}
                     autoPlay
@@ -18,7 +18,6 @@ const Dashboard = () => {
                     className="absolute   left-0 top-0 h-full w-auto opacity-20 object-cover transform scale-150 scale-x-[-1]" // Flipped
                 />
 
-                {/* Right Circuit Video (Normal Orientation) */}
                 <video
                     src={circuitvideo}
                     autoPlay
@@ -28,9 +27,9 @@ const Dashboard = () => {
                 />
             </div>
 
-            {/* Main content overlay */}
+            
             <div className='px-16 py-16 relative z-10'>
-                {/* Adjusted grid for width control */}
+
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_2fr_1fr] gap-6">
                     {/* Trade Optimizer */}
                     <div className="trader lg:row-span-2 bg-dark-card rounded-lg p-4 shadow-lg hover:shadow-glow transition-shadow flex flex-col justify-center items-center h-[500px] ">
