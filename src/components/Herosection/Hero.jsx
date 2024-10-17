@@ -6,7 +6,7 @@ import "./Hero.css"
 const HeroSection = () => {
     return (
         <section className="relative h-screen w-full overflow-hidden flex flex-col">
-            {/* Video Background */}
+            
             <video
                 className="absolute top-0 left-0 w-full h-full object-cover z-0"
                 src={backgroundvideo}
@@ -16,10 +16,10 @@ const HeroSection = () => {
                 playsInline
             />
 
-            {/* Navbar */}
+    
             <Navbar />
 
-            {/* Main Content */}
+            
             <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4 sm:px-8 text-white">
                 <h1 className="text-4xl sm:text-6xl font-bold mb-6">
                     When Innovation
