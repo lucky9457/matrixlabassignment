@@ -8,8 +8,6 @@ import About from './components/About/About';
 const App = () => {
   return (
     <div>
-
-
       <HeroSection />
       <Dashboard />
       <About />
